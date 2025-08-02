@@ -1,0 +1,219 @@
+body{
+    background-color: #FBF2F0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.nav-btn-tools,
+.nav-btn,
+.nav-btn-signup {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav{
+    color: #000000;
+    text-decoration: none;
+    margin-left: 1050px;
+    position: absolute;
+    top: 35px;
+    float: right;
+}
+
+.nav-btn, .nav-btn-signup{
+    padding: 10px 20px;
+    border: 2px solid #f5c6c7;
+    border-radius: 10px;
+}
+
+.headline{
+
+    font-family: 'Inter', sans-serif;
+    font-size: 39px;
+    font-weight: 800;
+    background: linear-gradient(to left, #4B1F13, #B1492D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subheadline{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cta-btn-start{
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff ;
+    background-color: #c55739;
+    border-radius: 100px;
+    margin-right: 20px;
+
+}
+
+
+.cta-btn-inspire{
+    top: 1500px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #000000 ;
+    border: 2px solid #f5c6c7;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.cta-btn-start, .cta-btn-inspire{
+    padding: 15px 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.features-title{
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.features-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.feature-card-title-1, .feature-card-title-2, .feature-card-title-3{
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.feature-card-1, .feature-card-2, .feature-card-3{
+    font-size: 16px;
+    height: 250px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #f5c6c7;
+    padding: 20px;
+    margin: 0 20px;
+    width: 250px;
+}
+
+.feature-card-1 .fab, .feature-card-2 .fab, .feature-card-3 .fab{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.feature-card-desc-1, .feature-card-desc-2, .feature-card-desc-3{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.feature-card-action-1, .feature-card-action-2, .feature-card-action-3{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #000;
+    margin-left: 10px;
+}
+
+
+footer{
+    margin-top: 50px;
+    background-color:#ffffff;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.newsletter-title{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #A73729;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+.newsletter-input{
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #A73729;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.newsletter-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #E06442;
+    color: #ffffff;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  gap: 73px;
+  margin-top: 24px;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-links a {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-social {
+  display: flex;
+  gap: 25px;
+  margin-top: 24px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.footer-links, .footer-social{
+    margin-left: 900px;
+}
